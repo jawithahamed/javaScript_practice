@@ -1,4 +1,5 @@
 let arr = [1,2,5,3,9,67,5,8]
+// sort in ASCII order not number
 
 console.log(arr.sort())
 
