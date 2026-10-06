@@ -1,0 +1,38 @@
+let fruits =["apple","watermelon","pineApple","banana"]
+// fruits.forEach(printFruit)
+
+// function printFruit(currentElement,index,totalArray){
+//    console.log(currentElement,index,totalArray)
+// }
+
+// fruits.map(function(currentEle, inde, totalArr){
+//     console.log(currentEle,inde, totalArr)
+// })
+
+// // foreach method return nothing but map method return value
+// let newArr = fruits.forEach((cElement)=> {
+//     console.log( cElement.toUpperCase() );
+//     return cElement
+// })
+// console.log(newArr); 
+
+// let newArr1 = fruits.map((cElement,index)=>{
+//     return { id  :index+1, fruits : cElement}
+// })
+// console.log(newArr1)
+
+// //chaining method
+// let newArr2 = fruits.map(cEle => cEle.toUpperCase()).sort().fill("123")
+
+// console.log(newArr2);
+
+// let newArr4 = fruits.forEach(cEle => cEle.toUpperCase()).sort().fill("123")
+
+// console.log(newArr4);
+//condition basec statement
+let newArr3 = fruits.map((cEle)=> {
+    return cEle=="apple"
+})
+console.log(newArr3)
+
+fruits.forEach(val => console.log(val=="apple"))
