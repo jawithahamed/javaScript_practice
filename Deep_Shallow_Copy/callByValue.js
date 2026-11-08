@@ -1,7 +1,6 @@
 // stack - to store primitive values
 // heap - to store non-primitive(array,object ,function) values
 
-const { LogIn } = require("lucide-react");
 
 
 let x = 10;
